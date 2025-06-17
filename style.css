@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(27, 214, 121, 0.836);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(to top,  rgb(47, 255, 141), rgb(2, 82, 38));
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.356);
+    margin: auto;
+}
+
+nav {
+    background-color: rgb(2, 82, 38);
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.356);
+}
+
+nav > a {
+    background-color: rgb(2, 82, 38);
+    padding: 10px;
+    color: rgb(201, 245, 161);
+    text-decoration: none;
+    font-size: bolder;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: rgb(47, 255, 141);
+    color: black;
+    
+}
+
+h1 {
+    color: rgb(5, 82, 5);
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgb(28, 228, 118), transparent );
+    color: rgb(5, 82, 5);
+}
+
+aside > h3 {
+    background-color: rgb(5, 82, 5);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0 -10;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p#ima {
+    text-align: center;
+}
+
+p {
+    text-indent: 4%;
+}
+
+a#ref {
+    color: green;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+div {
+    background: green;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color:  rgb(28, 228, 118);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.39)
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: rgb(2, 82, 38);
+    padding: 2px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.356);
+    color: white;
+    font-size: 0.8em;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: bolder;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+    color: rgba(28, 209, 28, 0.801)
+}
